@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(123, 108, 181, 0.2);
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid rgba(123, 108, 181, 0.3);
+  outline-offset: 1px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(44, 42, 74, 0.15);
+  border-radius: 3px;
+}
